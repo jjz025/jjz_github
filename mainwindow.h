@@ -2,18 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-<<<<<<< HEAD
-#include<QString>
-#include<QStack>
-#include<QKeyEvent>
-#include<QMap>
-#include<QPushButton>
-=======
 #include<QLabel>
 #include<aboutdialog.h>
 #include<searchdialog.h>
 #include<replacedialog.h>
->>>>>>> 83792c9 (实验二)
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -27,29 +19,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-<<<<<<< HEAD
-    QString operand;
-    QStack<QString> operands;
-    QString opcode;
-    QStack<QString> opcodes;
-    QString calculation(bool *ok=NULL);
-    QMap<int,QPushButton*> btnNums;
-    QMap<int,QPushButton*> btnOpts;
-
-private:
-    Ui::MainWindow *ui;
-private slots:
-    void btnNumClicked();
-    void on_btnPoint_clicked();
-    void on_btnDelete_clicked();
-    void btnBinaryOperatorClicked();
-    void btnUnaryOperatorClicked();
-    void on_btnEqual_clicked();
-    void on_btnPlusOrSur_clicked();
-    void on_btnClear_clicked();
-    void on_btnClearE_clicked();
-    virtual void keyReleaseEvent(QKeyEvent *event);
-=======
 
 private slots:
     void on_actionAbout_triggered();
@@ -112,6 +81,5 @@ private:
     QString filePath;
     bool textChanged;
     bool userEditConfirmed();
->>>>>>> 83792c9 (实验二)
 };
 #endif // MAINWINDOW_H
