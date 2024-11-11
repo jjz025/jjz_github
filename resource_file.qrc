@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>image/chaxun.png</file>
+        <file>image/chexiao.png</file>
+        <file>image/fuzhi.png</file>
+        <file>image/gongjulan.png</file>
+        <file>image/jianqie.png</file>
+        <file>image/lingcunwei.png</file>
+        <file>image/newfile.png</file>
+        <file>image/niantie.png</file>
+        <file>image/open_file.png</file>
+        <file>image/SAVE.png</file>
+        <file>image/shujuhuifu.png</file>
+        <file>image/tihuan.png</file>
+        <file>image/xianshihanghao.png</file>
+        <file>image/zhuangtailan.png</file>
+        <file>image/zidonghuanhang.png</file>
+        <file>image/zitiyanse.png</file>
+        <file>image/pencil_flat.png</file>
+    </qresource>
+</RCC>
